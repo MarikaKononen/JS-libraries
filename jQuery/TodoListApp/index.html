@@ -7,21 +7,23 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Todo List</title>
-        <script type="text/javascript" src="assets/js/lib/jquery-3.4.1.min.js"></script>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/todos.css">
+        <link href="https://fonts.googleapis.com/css?family=Belleza&display=swap" rel="stylesheet" >
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="assets/js/lib/jquery-3.4.1.min.js"></script>
     </head>
     <body>
 
         <div id="container">
-            <h1>To-Do List</h1>
-            <input type="text">
+            <h1>To-Do List <span id="toggle-form"><i class="far fa-edit"></i></span></h1> 
+            <input type="text" placeholder="Add New Todo">
             <ul>
-                <li><span>X </span>Order photographer</li>
-                <li><span>X </span>Buy Milk</li>
-                <li><span>X </span>Go to the park</li>
-                <li><span>X </span>Take a dog to doctor</li>
+                <li><span><i class="far fa-trash-alt"></i></span>Finish the Todo List Project</li>
+                <li><span><i class="far fa-trash-alt"></i></span>Continue PhoneBook React Exercise</li>
+                <li><span><i class="far fa-trash-alt"></i></span>Start The Web Dev Bootcamp Backend Part</li>
+                <li><span><i class="far fa-trash-alt"></i></span>Enjoy the Summer</li>
             </ul>
         </div>
         
